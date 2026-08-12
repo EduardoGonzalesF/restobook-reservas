@@ -1,10 +1,10 @@
-# Mejoras iterativas — Evaluación Final
+# Mejoras iterativas — Evaluación Final (culminación)
 
-## Ciclo 1 (parcial EPD)
+## Ciclo 1 (primera revisión)
 
 Hints de formulario, leyenda de calendario, filtros móviles, labels claros.
 
-## Ciclo 2 (evaluación final)
+## Ciclo 2 (culminación)
 
 1. **Wizard de reserva** — reduce carga cognitiva  
 2. **Toast** — feedback inmediato  

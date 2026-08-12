@@ -1,6 +1,6 @@
 # Prototipo Figma — RestoBook (Evaluación Final)
 
-## Enlace principal (EVA)
+## Enlace
 
 https://www.figma.com/design/ZukTVkmpXjguZ7FdQzFd0g/RestoBook-%E2%80%94-Evaluaci%C3%B3n-Final
 
@@ -16,11 +16,7 @@ Flujos:
 1. **Wizard reserva** — Paso 1 → 2 → 3 → 4 → Toast de éxito
 2. **Admin + modal** — Eliminar reserva → overlay de confirmación → Cancelar / Eliminar → Toast
 
-## Base del parcial (EPD — referencia)
-
-https://www.figma.com/design/viOQvLRyQ8Wzz0eVOavjMA/RestoBook---EPD
-
-## Pantallas mínimas (parcial + final)
+## Pantallas de la entrega
 
 1. Home / bienvenida  
 2. Vista Cliente — formulario de reserva  
@@ -30,9 +26,9 @@ https://www.figma.com/design/viOQvLRyQ8Wzz0eVOavjMA/RestoBook---EPD
 6. Administración — lista + filtros  
 7. Confirmación de reserva (éxito)  
 8. Estado de conflicto / mesa ocupada  
-9. **Final:** modal confirmar eliminación  
-10. **Final:** toast / feedback de éxito  
-11. **Final:** flujo por pasos (1 Datos → 2 Fecha/hora → 3 Mesa → 4 Confirmar)  
+9. Modal confirmar eliminación  
+10. Toast / feedback de éxito  
+11. Flujo por pasos (1 Datos → 2 Fecha/hora → 3 Mesa → 4 Confirmar)  
 
 ## Compartir para EVA
 

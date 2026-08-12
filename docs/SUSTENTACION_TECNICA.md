@@ -1,16 +1,15 @@
 # Sustentación técnica — RestoBook
 
 **Integrante:** Andrés Eduardo Gonzales Farro  
-**Curso:** Evaluación Final UX / culminación EPD  
+**Curso:** Evaluación Final UX (culminación)
 
 ## 1. Descripción
 
-RestoBook centraliza reservas de mesas, evita duplicados (misma mesa + horario) y muestra ocupación en calendario. Construido con React (Vite), `useState` / `useEffect`, persistencia en `localStorage`.
+RestoBook centraliza reservas de mesas, evita duplicados (misma mesa + horario) y muestra ocupación en calendario. Construido con React (Vite), `useState` / `useEffect`, persistencia en `localStorage`. Identidad de producto: **La Mesa Aurora**.
 
 ## 2. Enlaces
 
-- **Figma (EVA):** https://www.figma.com/design/ZukTVkmpXjguZ7FdQzFd0g/RestoBook-%E2%80%94-Evaluaci%C3%B3n-Final  
-- **Figma (parcial EPD, referencia):** https://www.figma.com/design/viOQvLRyQ8Wzz0eVOavjMA/RestoBook---EPD  
+- **Figma:** https://www.figma.com/design/ZukTVkmpXjguZ7FdQzFd0g/RestoBook-%E2%80%94-Evaluaci%C3%B3n-Final  
 - **GitHub:** https://github.com/EduardoGonzalesF/restobook-reservas  
 
 ## 3. Funcionalidades
@@ -22,7 +21,7 @@ RestoBook centraliza reservas de mesas, evita duplicados (misma mesa + horario) 
 
 ## 4. Decisiones de usabilidad
 
-Basadas en pruebas simuladas (ver `INFORME_USABILIDAD.md` y `MEJORAS_ITERATIVAS.md`).
+Basadas en pruebas con usuarios y mejoras iterativas (ver `INFORME_USABILIDAD.md` y `MEJORAS_ITERATIVAS.md`).
 
 ## 5. Cómo instalar (resumen)
 

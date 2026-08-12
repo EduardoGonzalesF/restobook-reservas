@@ -1,11 +1,10 @@
 # RestoBook — React (Vite)
 
-Sistema de reservas para restaurantes. Proyecto académico — Andrés Eduardo Gonzales Farro.
+Sistema de reservas para restaurantes. Evaluación Final UX (culminación) — Andrés Eduardo Gonzales Farro.
 
 ## Enlaces
 
-- Figma (evaluación final): https://www.figma.com/design/ZukTVkmpXjguZ7FdQzFd0g/RestoBook-%E2%80%94-Evaluaci%C3%B3n-Final
-- Figma (parcial EPD): https://www.figma.com/design/viOQvLRyQ8Wzz0eVOavjMA/RestoBook---EPD
+- Figma: https://www.figma.com/design/ZukTVkmpXjguZ7FdQzFd0g/RestoBook-%E2%80%94-Evaluaci%C3%B3n-Final
 - GitHub: https://github.com/EduardoGonzalesF/restobook-reservas
 
 ## Documentación de entrega
