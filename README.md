@@ -4,8 +4,17 @@ Sistema de reservas para restaurantes. Proyecto académico — Andrés Eduardo G
 
 ## Enlaces
 
-- Figma: https://www.figma.com/design/viOQvLRyQ8Wzz0eVOavjMA/RestoBook---EPD
+- Figma (evaluación final): https://www.figma.com/design/ZukTVkmpXjguZ7FdQzFd0g/RestoBook-%E2%80%94-Evaluaci%C3%B3n-Final
+- Figma (parcial EPD): https://www.figma.com/design/viOQvLRyQ8Wzz0eVOavjMA/RestoBook---EPD
 - GitHub: https://github.com/EduardoGonzalesF/restobook-reservas
+
+## Documentación de entrega
+
+En la carpeta `docs/`:
+
+- `SUSTENTACION-RestoBook-EVA.pdf`
+- `PRESENTACION-RestoBook-EVA.pptx`
+- Informe de usabilidad, mejoras iterativas y guía Figma
 
 ## Requisitos
 

@@ -1,93 +1,48 @@
-# Informe de Pruebas de Usabilidad — RestoBook
+# Informe de usabilidad — RestoBook (parcial + final)
 
-**Proyecto:** Sistema de gestión de reservas para restaurantes  
-**Fecha:** Junio 2026  
-**Integrantes:** Eduardo GOnzales Farro
-
----
+**Integrante:** Andrés Eduardo Gonzales Farro  
+**Fecha:** Agosto 2026 (evaluación final)
 
 ## 1. Objetivo
 
-Evaluar la experiencia de usuario de RestoBook con usuarios simulados representando dos perfiles:
-
-- **Administrador del restaurante:** gestiona reservas, confirma y cancela.
-- **Cliente:** consulta disponibilidad y crea una reserva.
-
----
+Evaluar UX de RestoBook (cliente y administrador) y aplicar mejoras iterativas exigidas en la evaluación final.
 
 ## 2. Metodología
 
 | Aspecto | Detalle |
 |---------|---------|
-| Participantes | 5 usuarios simulados (3 clientes, 2 administradores) |
-| Duración | 15 minutos por sesión |
-| Tareas | Crear reserva, consultar calendario, confirmar reserva, intentar reserva duplicada |
-| Herramientas | Prototipo Figma + aplicación React funcional |
-| Métricas | Tiempo de completación, errores, satisfacción (escala 1-5) |
+| Participantes | 5 usuarios simulados (3 clientes, 2 admins) |
+| Duración | ~15 min / sesión |
+| Herramientas | Figma + app React |
 
----
+## 3. Resultados (parcial)
 
-## 3. Tareas evaluadas
+Satisfacción: **4.2 / 5**. Tareas T1–T5 completadas al 100%.
 
-1. **T1:** Crear una reserva para 4 personas en un horario disponible
-2. **T2:** Identificar días con alta ocupación en el calendario
-3. **T3:** Confirmar una reserva pendiente desde administración
-4. **T4:** Intentar reservar una mesa ya ocupada (validar mensaje de conflicto)
-5. **T5:** Buscar una reserva existente por nombre
+## 4. Problemas (parcial) → estado en el final
 
----
+| # | Problema | Severidad | Solución final |
+|---|----------|-----------|----------------|
+| P1 | Horario antes de ver mesas | Media | Wizard paso 2 con hint explícito |
+| P2 | Leyenda calendario | Baja | Leyenda bajo calendario (parcial) |
+| P3 | Filtros táctiles móvil | Media | Áreas táctiles ampliadas |
+| P4 | Borrar sin confirmar | Alta | **Modal de confirmación** |
+| P5 | Correo opcional poco claro | Baja | Label “(opcional)” |
 
-## 4. Resultados
+## 5. Prueba iterativa del final (ciclo 2)
 
-### Tiempos de completación (promedio)
+Tareas nuevas:
 
-| Tarea | Tiempo promedio | Éxito |
-|-------|-----------------|-------|
-| T1 — Crear reserva | 2 min 15 s | 100% |
-| T2 — Consultar calendario | 45 s | 100% |
-| T3 — Confirmar reserva | 30 s | 100% |
-| T4 — Detectar conflicto | 1 min | 100% |
-| T5 — Buscar reserva | 25 s | 100% |
+- T6: Completar reserva en wizard 4 pasos  
+- T7: Eliminar reserva y cancelar en el modal  
+- T8: Ver toast de éxito tras confirmar  
 
-### Satisfacción general: **4.2 / 5**
+Hallazgos ciclo 2:
 
----
+| # | Hallazgo | Mejora aplicada |
+|---|----------|-----------------|
+| F1 | Formulario largo abrumaba | Wizard Datos → Fecha → Mesa → Confirmar |
+| F2 | Éxito solo en alerta inline | Toast global |
+| F3 | Miedo a borrar | Modal + copy claro |
 
-## 5. Problemas detectados
-
-| # | Problema | Severidad | Usuarios afectados |
-|---|----------|-----------|-------------------|
-| P1 | No era claro que debían seleccionar horario antes de ver mesas | Media | 3/5 |
-| P2 | Los colores del calendario no tenían leyenda visible al inicio | Baja | 2/5 |
-| P3 | En móvil, los botones de filtro eran difíciles de tocar | Media | 2/5 |
-| P4 | Falta de confirmación antes de eliminar una reserva | Alta | 1/5 |
-| P5 | El campo de correo no indicaba que era opcional | Baja | 4/5 |
-
----
-
-## 6. Soluciones implementadas
-
-| Problema | Solución aplicada |
-|----------|-------------------|
-| P1 | Mensaje guía: "Selecciona fecha, comensales y horario para ver mesas disponibles" |
-| P2 | Leyenda de colores añadida debajo del calendario (baja/media/alta ocupación) |
-| P3 | Filtros con área táctil ampliada y diseño responsive mobile-first |
-| P4 | Estados visuales diferenciados por color en la lista de reservas |
-| P5 | Placeholder y label indican que el correo es opcional |
-
----
-
-## 7. Conclusiones
-
-Las pruebas confirmaron que RestoBook resuelve el problema principal de duplicación de reservas gracias a la detección de conflictos en tiempo real. Los usuarios completaron todas las tareas con éxito. Las mejoras iterativas incrementaron la claridad del flujo de reserva y la accesibilidad en dispositivos móviles.
-
----
-
-## 8. Recomendaciones futuras
-
-- Agregar confirmación modal antes de eliminar reservas
-- Implementar notificaciones por correo al confirmar reserva
-- Añadir vista semanal del calendario para administradores
-- Integrar autenticación para separar roles cliente/administrador
-
----
+Satisfacción ciclo 2 (simulada): **4.6 / 5**
