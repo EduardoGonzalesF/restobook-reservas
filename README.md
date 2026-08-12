@@ -37,4 +37,4 @@ Build: `npm run build` · Preview: `npm run preview`
 - Persistencia `localStorage`
 - Hooks `useState` / `useEffect`
 
-Solo para uso local / entrega académica. No se despliega a Hostinger.
+Proyecto académico — entrega en GitHub / local.

@@ -1,7 +1,7 @@
 ﻿# Checklist — qué subir a EVA
 
-- [x] PDF sustentación — SUSTENTACION-RestoBook-EVA.pdf
-- [x] Presentación PPT — PRESENTACION-RestoBook-EVA.pptx
+- [x] PDF sustentación — `docs/SUSTENTACION-RestoBook-EVA.pdf`
+- [x] Presentación PPT — `docs/PRESENTACION-RestoBook-EVA.pptx`
 - [x] Link Figma + prototype
 - [x] Link GitHub
 - [x] Integrante: Andrés Eduardo Gonzales Farro
@@ -10,5 +10,4 @@
 
 ## No subir
 
-- node_modules
-- Nada a Hostinger
+- `node_modules`
